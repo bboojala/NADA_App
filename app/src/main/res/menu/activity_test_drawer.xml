@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_24px"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nadaEducationFragment"
+            android:icon="@drawable/history_edu_24px"
+            android:title="NADA Education" />
+        <item
+            android:id="@+id/newsFragment"
+            android:icon="@drawable/newsstand_24px"
+            android:title="News" />
+        <item
+            android:id="@+id/showsEventsFragment"
+            android:icon="@drawable/calendar_month_24px"
+            android:title="Shows &amp; Events" />
+        <item
+            android:id="@+id/researchDataFragment"
+            android:icon="@drawable/analytics_24px"
+            android:title="Research &amp; Data" />
+        <item
+            android:id="@+id/membershipFragment"
+            android:icon="@drawable/card_membership_24px"
+            android:title="Membership" />
+        <item
+            android:id="@+id/aboutNadaFragment"
+            android:icon="@drawable/store_24px"
+            android:title="About NADA" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/account_circle_24px"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/settings_24px"
+            android:title="Settings" />
+
+    </group>
+</menu>

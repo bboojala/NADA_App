@@ -1,0 +1,8 @@
+{
+    "client_id": "0oamo56w7cAUJvgvV5d7",
+    "redirect_uri": "com.nada.nada:/callback",
+    "end_session_redirect_uri": "com.nada.nada:/logout",
+    "discovery_uri": "https://dev-94895076.okta.com/oauth2/default",
+    "scopes": ["openid", "profile", "offline_access"],
+    "requireHardwareBackedKeyStore": false
+}

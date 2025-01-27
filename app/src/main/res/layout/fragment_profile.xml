@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dadada"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Over View"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Acoount"
+                    android:textColor="@color/black"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Organization"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Purchase"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Request"
+                    android:textColor="@color/black"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tasks"
+                    android:textColor="@color/black"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:text="Documents"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Custom"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_height="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:text="Buy"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:dividerColor="@color/black"/>
+
+
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:layout_height="wrap_content"
+        android:text="Username will appear here"
+        android:textSize="24sp" />
+
+
+
+
+</LinearLayout>
